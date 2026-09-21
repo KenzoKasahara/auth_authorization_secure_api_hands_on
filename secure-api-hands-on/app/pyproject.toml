@@ -1,0 +1,17 @@
+[project]
+name = "secure-api-hands-on"
+version = "0.1.0"
+description = "認証・認可とセキュア API 設計のハンズオン用 Django アプリ"
+requires-python = ">=3.14"
+dependencies = [
+    "Django==6.1.1",
+    "djangorestframework==3.18.1",
+    "djangorestframework-simplejwt==5.5.1",
+    "django-cors-headers==4.9.0",
+    "psycopg[binary]==3.3.6",
+]
+
+[tool.uv]
+# このディレクトリ自体はライブラリではなく Django プロジェクトなので、
+# 依存だけを入れてプロジェクト本体はインストールしない
+package = false
