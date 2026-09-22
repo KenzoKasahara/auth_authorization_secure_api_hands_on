@@ -147,3 +147,7 @@ Chapter 00 のシードコマンドで固定のIDとして作られる。以降�
 6. Token の有効期限を短くすると何が変わるのか → [Ch03](./chapters/chapter03-token-lifecycle.md)
 7. APIへの総当たりをどう制限するのか → [Ch08](./chapters/chapter08-rate-limit.md)
 8. CORS・認証・認可はそれぞれ何を守っているのか → [Ch09](./chapters/chapter09-cors.md)
+
+## Djangoの基本的な処理フロー
+
+![djangoの処理の流れ](./docs/images/djangoの処理の流れ.png)
