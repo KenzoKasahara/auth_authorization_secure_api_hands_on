@@ -150,4 +150,10 @@ Chapter 00 のシードコマンドで固定のIDとして作られる。以降�
 
 ## Djangoの基本的な処理フロー
 
-![djangoの処理の流れ](./docs/images/djangoの処理の流れ.png)
+### 簡易版
+
+![djangoの処理の流れ_1](./docs/images/djangoの処理の流れ_1.png)
+
+### 全体版
+
+![djangoの処理の流れ_2](./docs/images/djangoの処理の流れ_2.png)
